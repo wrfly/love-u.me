@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+*{margin:0;padding:0;}
+html,body{position:absolute;top:0;width:100%;height:100%;overflow:hidden;}
+body{top:7px;text-align:left;font-size:12px;line-height:normal;font-family:"Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";}
+li{list-style:none;}
+a,a:hover{text-decoration:none;}
+.f-cb:after{clear:both;display:block;visibility:hidden;height:0;overflow:hidden;content:'.';}
+.f-cb{zoom:1;}
+
+.boprt,.boprt ul,.boprt li,.boprt a,.boprt em{height:23px;line-height:23px;}
+.boprt ul{float:right;}
+.boprt li{display:inline;float:left;margin:0 5px 0 0;}
+.boprt a,.boprt em{float:left;background:url(../images/history/history-004.png) no-repeat;_background:url(../images/history/history-005.png) no-repeat;}
+.boprt a{padding:0 2px 0 0;cursor:pointer;text-decoration:none;background-position:right 0;}
+.boprt a:hover{text-decoration:none;background-position:right -870px;}
+.boprt em{padding:0 5px 0 26px;white-space:nowrap;font-weight:normal;font-style:normal;}
+.boprt em,
+.boprt a:hover em{color:#fff;}
+.boprt .notxt{width:24px;}
+.boprt .notxt em{width:100%;padding:0;overflow:hidden;text-indent:-2000px;}
+.boprt .boprt01 em{background-position:0 -30px;}
+.boprt .boprt01:hover em{background-position:0 -60px;}
+.boprt .boprt02 em{background-position:0 -90px;}
+.boprt .boprt02:hover em{background-position:0 -120px;}
+.boprt .boprt03 em{background-position:0 -150px;}
+.boprt .boprt03:hover em{background-position:0 -180px;}
+.boprt .boprt04 em{background-position:0 -270px;}
+.boprt .boprt04:hover em{background-position:0 -300px;}
+.boprt .boprt05 em{background-position:0 -330px;}
+.boprt .boprt05:hover em{background-position:0 -360px;}
+.boprt .boprt06 em{background-position:0 -390px;}
+.boprt .boprt06:hover em{background-position:0 -420px;}
+.boprt .boprt07 em{background-position:0 -450px;}
+.boprt .boprt07:hover em{background-position:0 -480px;}
+.boprt .boprt08 em{background-position:0 -510px;}
+.boprt .boprt08:hover em{background-position:0 -540px;}
+.boprt .boprt09 em{background-position:0 -570px;}
+.boprt .boprt09:hover em{background-position:0 -600px;}
+.boprt .boprt10 em{background-position:0 -630px;}
+.boprt .boprt10:hover em{background-position:0 -660px;}
+.boprt .boprt11 em{background-position:0 -690px;}
+.boprt .boprt11:hover em{background-position:0 -720px;}
+.boprt .boprt12 em{background-position:0 -210px;}
+.boprt .boprt12:hover em{background-position:0 -240px;}
+.boprt .boprt13 em{background-position:0 -750px;}
+.boprt .boprt13:hover em{background-position:0 -780px;}
+.boprt .boprt20:hover em{background-position:0 -30px;}
+.m-card{position:absolute;z-index:10;right:5px;top:2px;padding:12px 15px 15px;width:180px;box-shadow:0 0 2px 0 rgba(0,0,0,0.3);-webkit-box-shadow:0 0 3px 0 rgba(0,0,0,0.3);*border:1px solid #ececec;background:#fff;opacity:.95;filter:alpha(opacity=95);-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
+.m-card .cont{position:relative;}
+.m-card .close{position:absolute;top:3px;right:0;_right:15px;display:block;width:10px;height:10px;background-position:0 -218px;/*font-family:arial;font-size:26px;color:#a4abb4;*/}
+.m-card .close:hover{background-position:-27px -218px;/*color:#818181;*/}
+.m-card .bd{padding:0 0 15px;}
+.m-card .hdimg{float:left;width:30px;height:30px;margin:3px 10px 0 0;}
+.m-card .name,.m-card .dmn{width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.m-card .name{font-size:14px;font-weight:bold;color:#444;line-height:17px;}
+.m-card .dmn{color:#888;line-height:16px;}
+.m-card .btn{display:block;width:180px;height:42px;line-height:40px;text-align:center;}
+.m-card .actinfo{display:block;margin:10px 0;background:#FF6300;line-height:27px;color:#fff;text-align:center;}
+.m-card .focus{padding-left:10px;width:170px;*padding-left:0;*width:180px;background-position:0 0;}
+.m-card .focus:hover{background-position:0 -53px;}
+.m-card .focus b{margin:0 6px 0 0;color:#fff;font-family:arial;font-size:24px;font-weight:bold;text-shadow:0 1px 0 #759b00;}
+.m-card .focus span{font-size:16px;color:#fff;text-shadow:0 1px 0 rgba(117,155,0,0.65);letter-spacing:10px;vertical-align:2px;}
+.m-card .join,.m-card .join:hover{margin:5px 0 0;font-size:16px;color:#777;background-position:0 -106px;}
+.m-card .join:hover{background-position:0 -160px;}
+.m-card .join-1,.m-card .join-1:hover{color:#fff;background-position:0 -244px;}
+.m-card .join-1:hover{background-position:0 -294px;}
+.m-card .join-1 b{float:left;width:16px;height:16px;margin:12px 5px 0 22px;background-position:-1px -338px;}
+.m-card .join-1 span{float:left;}
+.m-card-1{padding-bottom:22px;}
+.m-card-1 .bd{color:#444;line-height:1.8;}
+.m-card-1 .bd-1{padding-top:24px;border-top:1px solid #eee;text-align:center;}
+.m-card-1 .focus{margin:0 0 25px;background-position:0 -106px;}
+.m-card-1 .focus:hover{background-position:0 -160px;}
+.m-card-1 .focus b,.m-card-1 .focus span{color:#777;text-shadow:none;}
+.m-card-1 .join,.m-card-1 .join:hover{background-position:0 0;color:#fff;text-shadow:0 1px 0 rgba(117,155,0,0.65);}
+.m-card-1 .join:hover{background-position:0 -53px;}
+.m-card-1 .logo{margin:0 0 16px;height:40px;background-position:10px 0;}
+
+.a-control {position:relative;transition:top 0.3s, opacity 0.8s;-webkit-transition:top 0.3s, opacity 0.8s;-moz-transition:top 0.3s, opacity 0.8s;-o-transition:top 0.3s, opacity 0.8s;}
+</style>
+</head>
+<body style="opacity: 1; filter: none;">
+<div class="boprt a-control" style="top: 0px; opacity: 1;" id="control">
+	<ul>
+<li><form><a class="boprt06" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http%3A%2F%2Flove-u.me%2Fhistory.html&title=Love-u.me%20%26%20history&pics=http%3A%2F%2Flove-u.me%2Fimages%2Fi%2F1.jpg&summary=love-u.me%20%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5%EF%BC%8C%E5%90%91%E5%85%A8%E4%B8%96%E7%95%8C%E5%B1%95%E7%A4%BA%E4%BD%A0%E7%9A%84%E7%88%B1%E3%80%82" class="boprt05" target="_top"><em>分享网页</em></a></form></li>
+	<li><form>
+         <a class="boprt04" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http%3A%2F%2Flove-u.me%2Fhistory.html&title=Love-u.me%20%26%20history&pics=http%3A%2F%2Flove-u.me%2Fimages%2Fi%2F1.jpg&summary=love-u.me%20%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5%EF%BC%8C%E5%90%91%E5%85%A8%E4%B8%96%E7%95%8C%E5%B1%95%E7%A4%BA%E4%BD%A0%E7%9A%84%E7%88%B1%E3%80%82" class="boprt03"><em>给我点赞</em></a>
+    </form></li>
+<li><form><a href="http://love-u.me/" class="boprt01" target="_top"><em>返回主页</em></a></form></li>
+
+    </ul>
+</div>
+</body></html>
