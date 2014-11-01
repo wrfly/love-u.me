@@ -66,7 +66,7 @@ html{overflow-x:hidden;}
 			<ul class="m-nav m-nav-1">
 				<li><a rel="nofollow" title="邮件" href="mailto:love@love-u.me" class="icn1">&nbsp;</a></li>
 				<li><a rel="nofollow" title="提问" href="mailto:love@love-u.me" class="icn2">&nbsp;</a></li>
-				<li><a rel="nofollow" title="展示" href="./list.html" class="icn3">&nbsp;</a></li>
+				<li><a title="展示" href="./list.html" class="icn3">&nbsp;</a></li>
 				<li><a rel="nofollow" title="投稿" href="mailto:love@love-u.me" class="icn4">&nbsp;</a></li>
 				<li><a title="分享" href="#bottom" class="icn5">&nbsp;</a></li>
 			</ul>
