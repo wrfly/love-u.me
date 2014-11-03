@@ -3,12 +3,12 @@ jQuery(function($){
 
 	Modernizr.load({
 	  test: Modernizr.mq('only all'),
-	  nope: ['/js/libs/respond.min.js', '/js/ie8.js']
+	  nope: ['/js/index/respond.min.js', '/js/index/ie8.js']
 	});
 
 	//Blue gradient fallback
 	if(!Modernizr.cssgradients){
-		$('.intro').css({'background-image': 'url("/css/images/grad-fallback.gif")'})
+		$('.intro').css({'background-image': 'url("/img/index/grad-fallback.gif")'})
 	}
 
 	//Form Placeholder fallbacks
@@ -240,41 +240,13 @@ jQuery(function($){
 	}
 	
 	//form validation
-	if($('.project-planner-page-form').length > 0){
-		$('.project-planner-page-form').validate({
-			rules: {
-				project_name:{
-			    	required: true
-			    },
-				project_email:{
-			    	required: true,
-			         email: true
-			    }
-			},
-		    messages:{
-		        project_name:{
-		        	required:"Please enter your name"
-		        },
-		        project_email:{
-		        	required:"Please enter your email address"
-		        }
-		    }
-		});
 
-	}	
 
 	/* ==================================================
 
 		Project Planner Functions
 	
 	================================================= */
-
-	//project planner radio label functions
-	$('.radios label').click(function(e){
-		$('.radios label').removeClass('active');
-		$(this).addClass('active');			
-	});
-
 
 
 	/* ==================================================
@@ -516,18 +488,6 @@ jQuery(function($){
 	}
 
 
-
-//sliding navigation
-
-function fixedNav(){
-	if($(window).width() < 600){
-		$('.hidden-nav').hide()
-	}else{
-		$('.hidden-nav').show()
-	}
-}
-fixedNav();
-
 $(window).bind('resize', function(){
 	fixedNav();
 });
@@ -563,109 +523,6 @@ $('.header').waypoint({
 	},
 	offset		:'-122px'
 });
-
-
-
-
-if($('.image-title').length > 0){
-	$('.image-title-image').addClass('opaque');
-	$('.image-title').find('h1').addClass('visible');
-}
-
-if($('.project-intro').length > 0){
-	$(window).bind('load', function(){
-		$('.project-intro').find('.view-website').addClass('visible'); 
-		$('.project-description').find('p').addClass('visible');
-		$('.project-image-slideshow').find('.bx-wrapper').addClass('visible');
-		$('.project-testimonial-content').find('p').addClass('visible');
-		$('.project-social').find('.page-width').addClass('visible');
-		$('.project-services').addClass('visible');
-		$('.other-projects').find('.bx-wrapper').addClass('visible');
-	});
-
-}
-	
-
-var slider = $('.bxslider').bxSlider({
-	infiniteLoop: true,
-	useCSS: true,
-	auto:true,
-	slideMargin: 10
-});
-
-var resizeCalled;
-var otherSlider;
-
-if($(window).width() > 900 ){
-	otherSlider = $('.otherSlider').bxSlider({
-		slideWidth: 5000,
-		minSlides: 3,
-		maxSlides: 3,
-		slideMargin: 10,
-		pager: false,
-		controls: true
-	});
-}else if($(window).width() < 900 && $(window).width() > 490 ){
-	otherSlider = $('.otherSlider').bxSlider({
-		slideWidth: 5000,
-		minSlides: 2,
-		maxSlides: 2,
-		slideMargin: 10,
-		pager: false,
-		controls: true
-	});
-}else if( $(window).width() < 490){
-	otherSlider = $('.otherSlider').bxSlider({
-		slideWidth: 5000,
-		minSlides: 1,
-		maxSlides: 1,
-		slideMargin: 0,
-		pager: false,
-		controls: true
-	});
-}
-
-
-
-
-
-
-
-
-
-
-//about page
-if($('.responsive-image').length > 0){
-
-	var imageResize = {
-    init: function() {
-        this.doImages();
-    },
-    onResize: function() {
-        this.doImages();   
-    },
-
-	doImages: function() {
-        var images = $('.responsive-image');
-        width = $( window ).width(),
-        images.each(function() {
-           if (width < 769) {
-               // tablet
-               var src = $(this).data('mobile');
-           } else {
-               // desktop	
-               var src = $(this).data('desktop');
-           }
-           $(this).attr('src', src);
-        });
-    }
-}
-
-imageResize.init();
-
-}
-
-
 
 
 
