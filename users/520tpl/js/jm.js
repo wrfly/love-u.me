@@ -1,6 +1,6 @@
 function password() {
 var testV = 1;
-var pass1 = prompt('请输入密码(love-u):','');
+var pass1 = prompt('请输入密码:','');
 while (testV < 3) {
 if (!pass1) 
 history.go(-1);
