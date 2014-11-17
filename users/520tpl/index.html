@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class=''>
+<head>
+    <title>Love-u | 亲爱的</title>
+    <style>
+        body
+        {
+            margin: 0;
+            overflow: hidden;
+            background: #E9E9E9;
+        }
+        
+        #Circle
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            width: 150px;
+            height: 150px;
+            border-radius: 150px;
+            background: url('img/1.jpg');
+        }
+        
+        #Circle:before
+        {
+            content: '';
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            width: 162px;
+            height: 162px;
+            border-radius: 162px;
+            border: 2px solid #BCBCBC;
+        }
+        
+        #Circle:after
+        {
+            content: '';
+            position: absolute;
+            top: -13px;
+            left: -13px;
+            width: 172px;
+            height: 172px;
+            border-radius: 172px;
+            border: 2px solid #FF9900;
+        }
+        
+        #Circle span
+        {
+            position: absolute;
+            bottom: -60px;
+            display: block;
+            width: 150px;
+            text-align: center;
+            font-family: 'Oswald';
+            color: #333;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <canvas>
+    </canvas>
+    <div id="Circle">
+        <span>I Love You<span>
+    </div>
+    <script src='js/js1.js'></script>
+    <script src='js/js2.js'></script>
+    <script type="text/javascript">    
+    function countDown(secs,surl){    
+    //alert(surl);    
+    var jumpTo = document.getElementById('jumpTo');
+    jumpTo.innerHTML=secs; 
+    if(--secs>0){    
+        setTimeout("countDown("+secs+",'"+surl+"')",1000);    
+        }    
+    else{      
+        location.href=surl;    
+        }    
+    }    
+    </script> 
+    <span id="jumpTo"></span>
+<script type="text/javascript">countDown(5,'index2.html');</script> 
+</body>
+</body>
+</html>
