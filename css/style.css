@@ -1592,7 +1592,7 @@ form:after {
           border-radius: 50%;
           -moz-border-radius: 50%;
           -webkit-border-radius: 50%;
-          background: white url(/css/images/sprite.svg) -973px 12px no-repeat; }
+          background: white url(images/sprite.svg) -973px 12px no-repeat; }
           @media (min-width: 500px) {
             .grad-area .tick-list li span:before {
               top: -5px;
