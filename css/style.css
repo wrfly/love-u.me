@@ -492,7 +492,7 @@ form:after {
   display: inline-block; }
   .header-logo .white-logo {
     width: 95px;
-    height: 97px;
+    height: 88px;
     display: block;
     background-size: 1000px 1000px;
     background: url(../img/sprite.svg) no-repeat;
@@ -6913,7 +6913,7 @@ footer {
     float: right;
     display: inline-block; }
     .hidden-nav .scroll-logo .white-logo {
-      width: 95px;
+      width: 65px;
       height: 60px;
       display: block;
       background-size: 1000px 1000px;
