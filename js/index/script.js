@@ -8,7 +8,7 @@ jQuery(function($){
 
 	//Blue gradient fallback
 	if(!Modernizr.cssgradients){
-		$('.intro').css({'background-image': 'url("../css/images/grad-fallback.gif")'})
+		$('.intro').css({'background-image': 'url("../../css/images/index/grad-fallback.gif")'})
 	}
 
 	//Form Placeholder fallbacks
@@ -307,74 +307,6 @@ jQuery(function($){
 	}	
 
 
-	//Google Maps styling and initialization
-	function initialize() {
-	
-		var styles = [
-			{
-			stylers: [
-			  { saturation: -100 },
-			  { lightness: -17 }
-			]
-			
-			}
-		];
-		
-		// Create a new StyledMapType object, passing it the array of styles,
-		// as well as the name to be displayed on the map type control.
-		var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
-		
-		// Create a map object, and include the MapTypeId to add
-		// to the map type control.
-		var mapOptions = {
-			disableDefaultUI: true, 
-			navigationControl: true, 
-     	 	scrollwheel: true, 
-      		zoom: 15,
-			center: new google.maps.LatLng(51.385582,-2.3608),
-			streetViewControl: false,
-			navigationControlOptions: {
-			position: google.maps.ControlPosition.TOP_LEFT
-		},   
-		zoomControlOptions: {
-			position: google.maps.ControlPosition.TOP_LEFT
-		},
-		
-		mapTypeControlOptions: {
-			mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
-		}
-		};
-		
-		var map = new google.maps.Map(document.getElementById('map_canvas'),mapOptions);
-		
-		//Associate the styled map with the MapTypeId and set it to display.
-		map.mapTypes.set('map_style', styledMap);
-		map.setMapTypeId('map_style'); 
-			
-		var image = new google.maps.MarkerImage(
-			'/css/images/maps-icon.png',
-			new google.maps.Size(100, 83),	// size
-			new google.maps.Point(0,0),	// origin
-			new google.maps.Point(50, 83)	// anchor
-		);
-		
-		var shadow = new google.maps.MarkerImage(
-			'/css/images/maps-icon-shadow.png',
-			new google.maps.Size(100, 83),	// size
-			new google.maps.Point(0,0),	// origin
-			new google.maps.Point(50, 83)	// anchor
-		);	
-		
-		var myLatLng = new google.maps.LatLng(51.385582,-2.3608);
-		
-		var beachMarker = new google.maps.Marker({
-			position: myLatLng,
-			map: map,
-			shadow: shadow,
-			icon: image
-		});        
-	
-	}
 	
 	//runs the GMAPS function if the map-canvas div exisists
 	 if($('#map_canvas').size() > 0){
@@ -771,23 +703,5 @@ $('.prev').click(function(){
 $('.next').click(function(){
 	otherSlider.goToNextSlide();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 });

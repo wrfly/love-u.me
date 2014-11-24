@@ -495,7 +495,7 @@ form:after {
     height: 88px;
     display: block;
     background-size: 1000px 1000px;
-    background: url(../img/sprite.svg) no-repeat;
+    background: url(../../img/index/svg/sprite.svg) no-repeat;
     background-position: -275px 16px;
     -webkit-transition: opacity 300ms ease-in-out;
     -moz-transition: opacity 300ms ease-in-out;
@@ -689,7 +689,7 @@ form:after {
     margin-left: -29px;
     width: 58px;
     height: 26px;
-    background: #30b6be url(../img/sprite.svg) no-repeat;
+    background: #30b6be url(../../img/index/svg/sprite.svg) no-repeat;
     background-position: 18px -979px;
     -webkit-border-top-right-radius: 3px;
     -moz-border-radius-topright: 3px;
@@ -1710,7 +1710,7 @@ form:after {
     /* Firefox, other Gecko */
     box-sizing: border-box;
     /* Opera/IE 8+ */
-    background: url(../img/sprite.svg) no-repeat;
+    background: url(../../img/index/svg/sprite.svg) no-repeat;
     background-size: 1000px 1000px;
     background-position: -677px -373px; }
     .grad-area .project-description .blue-box p {
@@ -1742,7 +1742,7 @@ form:after {
     /* Firefox, other Gecko */
     box-sizing: border-box;
     /* Opera/IE 8+ */
-    background: url(../img/sprite.svg) no-repeat; }
+    background: url(../../img/index/svg/sprite.svg) no-repeat; }
     .grad-area .project-description .blackbox p {
       width: 250px;
       margin-top: 0;
@@ -1765,7 +1765,7 @@ form:after {
     margin: -83px 0px 0px 228px;
     width: 182px;
     height: 155px;
-    background: url(../img/sprite.svg) no-repeat;
+    background: url(../../img/index/svg/sprite.svg) no-repeat;
     background-size: 1900px 1900px;
     background-position: -521px 0px; }
   .grad-area .project-description .services-provided {
@@ -1801,7 +1801,7 @@ form:after {
         /* Firefox, other Gecko */
         box-sizing: border-box;
         /* Opera/IE 8+ */
-        background: url(../img/sprite.svg) no-repeat;
+        background: url(../../img/index/svg/sprite.svg) no-repeat;
         background-size: 1000px 1000px;
         background-position: -984px 7px;
         font-size: 20px;
@@ -1825,7 +1825,7 @@ form:after {
       height: 98px;
       margin-top: 40px;
       display: inline-block;
-      background: #dad9d7 url(../img/sprite.svg) no-repeat;
+      background: #dad9d7 url(../../img/index/svg/sprite.svg) no-repeat;
       background-size: 1000px 1000px; }
       .grad-area .related-projects .prev1:hover, .grad-area .related-projects .next1:hover {
         background-color: #bbb9b6; }
@@ -1948,7 +1948,7 @@ form:after {
       content: "";
       float: left;
       display: inline-block;
-      background: url(../img/sprite.svg) no-repeat;
+      background: url(../../img/index/svg/sprite.svg) no-repeat;
       background-size: 1000px 1000px; }
   .grad-area .section-title {
     width: 100%;
@@ -2423,7 +2423,7 @@ form:after {
     display: inline-block; }
     .about-process-graph .about-process-step:after {
       content: "";
-      background: url(../img/sprite.svg) no-repeat; }
+      background: url(../../img/index/svg/sprite.svg) no-repeat; }
   .about-process-graph .about-process-step:last-of-type {
     width: 203px; }
     .about-process-graph .about-process-step:last-of-type:after {
@@ -2440,7 +2440,7 @@ form:after {
       display: block; }
     .about-process-graph .about-process-title span:before {
       content: "";
-      background: url(../img/sprite.svg) no-repeat; }
+      background: url(../../img/index/svg/sprite.svg) no-repeat; }
     .about-process-graph .about-process-title:hover {
       background: #363636; }
       .about-process-graph .about-process-title:hover span {
@@ -2620,7 +2620,7 @@ form:after {
     .social .google a {
       display: block;
       text-indent: -99999px;
-      background: url(../img/sprite.svg) no-repeat; }
+      background: url(../../img/index/svg/sprite.svg) no-repeat; }
     .social .twitter:hover,
     .social .facebook:hover,
     .social .pintrest:hover,
@@ -2849,7 +2849,7 @@ form:after {
     height: 24px;
     top: 0px;
     left: 0px;
-    background: url(../img/sprite.svg) no-repeat;
+    background: url(../../img/index/svg/sprite.svg) no-repeat;
     background-size: 1000px 1000px;
     background-position: 0 -614px; }
 .content ol {
@@ -2903,7 +2903,7 @@ form:after {
     height: 29px;
     top: 0.9em;
     left: 0px;
-    background: url(../img/sprite.svg) no-repeat;
+    background: url(../../img/index/svg/sprite.svg) no-repeat;
     background-size: 1000px 1000px;
     background-position: -16px -680px; }
 .comments ul {
@@ -2967,7 +2967,7 @@ form:after {
     height: 29px;
     top: 0.9em;
     left: 0px;
-    background: url(../img/sprite.svg) no-repeat;
+    background: url(../../img/index/svg/sprite.svg) no-repeat;
     background-size: 1000px 1000px;
     background-position: -16px -785px; }
 .comment-form form input[type="text"], .comment-form form textarea {
@@ -3349,7 +3349,7 @@ footer {
         top: 50%;
         left: 50%;
         position: absolute;
-        background: url(../img/sprite.svg) no-repeat;
+        background: url(../../img/index/svg/sprite.svg) no-repeat;
         background-size: 1000px 1000px; }
       .project-navigation .prev-project:hover,
       .project-navigation .next-project:hover {
@@ -5610,7 +5610,7 @@ footer {
       content: "";
       float: left;
       display: inline-block;
-      background: url(../img/sprite.svg) no-repeat;
+      background: url(../../img/index/svg/sprite.svg) no-repeat;
       background-size: 830px 830px; }
   .about-process-graph .about-process-content {
     float: left;
@@ -5932,7 +5932,7 @@ footer {
       height: 66px;
       display: inline-block;
       padding: 0 14px 0 28px;
-      background: url(../img/sprite.svg) no-repeat;
+      background: url(../../img/index/svg/sprite.svg) no-repeat;
       background-position: 1px -845px; }
 
   .nav {
@@ -6533,7 +6533,7 @@ footer {
       content: "";
       float: left;
       display: inline-block;
-      background: url(../img/sprite.svg) no-repeat;
+      background: url(../../img/index/svg/sprite.svg) no-repeat;
       background-size: 830px 830px; }
   .about-process-graph .about-process-content {
     float: left;
@@ -6917,7 +6917,7 @@ footer {
       height: 60px;
       display: block;
       background-size: 1000px 1000px;
-      background: url(../img/sprite.svg) no-repeat;
+      background: url(../../img/index/svg/sprite.svg) no-repeat;
       background-position: -275px -10px;
       -webkit-transition: opacity 300ms ease-in-out;
       -moz-transition: opacity 300ms ease-in-out;
