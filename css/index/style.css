@@ -1102,7 +1102,7 @@ form:after {
     .grad-area .talk-to-us .contact-details {
       margin-bottom: 5.3125em;
       width: 270px;
-      float: left;
+      
       display: inline-block;
       text-align: left; }
       .grad-area .talk-to-us .contact-details p {
@@ -1118,7 +1118,7 @@ form:after {
         .grad-area .talk-to-us .contact-details p a {
           text-decoration: none; }
   .grad-area .our-work {
-    float: left;
+    /*float: left;*/
     display: inline-block;
     text-align: left;
     width: 202px;
