@@ -495,7 +495,7 @@ form:after {
     height: 88px;
     display: block;
     background-size: 1000px 1000px;
-    background: url(../../img/index/svg/sprite.svg) no-repeat;
+    background: url(../../img/index/svg/logo.svg) no-repeat;
     background-position: -275px 16px;
     -webkit-transition: opacity 300ms ease-in-out;
     -moz-transition: opacity 300ms ease-in-out;
@@ -1592,7 +1592,7 @@ form:after {
           border-radius: 50%;
           -moz-border-radius: 50%;
           -webkit-border-radius: 50%;
-          background: white url(images/sprite.svg) -973px 12px no-repeat; }
+          background: white url(../../img/index/svg/sprite.svg) -973px 12px no-repeat; }
           @media (min-width: 500px) {
             .grad-area .tick-list li span:before {
               top: -5px;
@@ -6917,7 +6917,7 @@ footer {
       height: 60px;
       display: block;
       background-size: 1000px 1000px;
-      background: url(../../img/index/svg/sprite.svg) no-repeat;
+      background: url(../../img/index/svg/logo2.svg) no-repeat;
       background-position: -275px -10px;
       -webkit-transition: opacity 300ms ease-in-out;
       -moz-transition: opacity 300ms ease-in-out;
