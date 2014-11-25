@@ -1473,7 +1473,7 @@ form:after {
       .grad-area .project-social .icon:before {
         content: '';
         display: block;
-        background: url(/css/images/sprite.svg) no-repeat;
+        background: url(../../img/index/svg/sprite.svg) no-repeat;
         position: absolute; }
   .grad-area .other-projects {
     width: 100%;
@@ -3365,16 +3365,16 @@ footer {
         background-position: -120px -388px;
         margin: -12px 0 0 -5px; } }
 .lt-ie9 .header-logo .white-logo {
-  background: url(../img/sprite.png) no-repeat;
+  background: url(../../img/index/svg/sprite.svg) no-repeat;
   background-position: -275px 16px; }
 .lt-ie9 .intro .scroll {
-  background: #30b6be url(../img/sprite.png) no-repeat;
+  background: #30b6be url(../../img/index/svg/sprite.svg) no-repeat;
   background-position: 18px -979px; }
 .lt-ie9 .twitter a,
 .lt-ie9 .facebook a,
 .lt-ie9 .pintrest a,
 .lt-ie9 .google a {
-  background: url(../img/sprite.png) no-repeat; }
+  background: url(../../img/index/svg/sprite.svg) no-repeat; }
 .lt-ie9 .twitter a {
   background-position: -27px -563px; }
 .lt-ie9 .facebook a {
@@ -3384,19 +3384,19 @@ footer {
 .lt-ie9 .google a {
   background-position: -106px -565px; }
 .lt-ie9 .project-description .blue-box {
-  background: url(../img/sprite.png) no-repeat;
+  background: url(../../img/index/svg/sprite.svg) no-repeat;
   background-position: -677px -373px; }
 .lt-ie9 .project-description .blackbox {
-  background: url(../img/sprite.png) no-repeat; }
+  background: url(../../img/index/svg/sprite.svg) no-repeat; }
 .lt-ie9 .project-description .stats-logo {
   display: none;
-  background: url(../img/sprite.png) no-repeat;
+  background: url(../../img/index/svg/sprite.svg) no-repeat;
   background-position: -521px 0px; }
 .lt-ie9 .services-provided ul li {
-  background: url(../img/sprite.png) no-repeat;
+  background: url(../../img/index/svg/sprite.svg) no-repeat;
   background-position: -956px 13px; }
 .lt-ie9 .related-projects .prev1, .lt-ie9 .related-projects .next1 {
-  background: #dad9d7 url(../img/sprite.png) no-repeat; }
+  background: #dad9d7 url(../../img/index/svg/sprite.svg) no-repeat; }
 .lt-ie9 .related-projects .prev1 {
   background-position: -100px -350px; }
 .lt-ie9 .related-projects .next1 {
@@ -3842,40 +3842,40 @@ footer {
     right: 444px; }
 
   .lt-ie9 .about-process-graph .about-process-title span:before {
-    background-image: url(../img/sprite.png); }
+    background-image: url(../../img/index/svg/sprite.svg); }
   .lt-ie9 .plan .about-process-title span:before {
-    background-image: url(../img/sprite.png);
+    background-image: url(../../img/index/svg/sprite.svg);
     background-position: -548px 0px; }
   .lt-ie9 .plan .about-process-title:hover span:before {
     background-position: -436px 0px; }
   .lt-ie9 .plan.active .about-process-title span:before {
-    background-image: url(../img/sprite.png);
+    background-image: url(../../img/index/svg/sprite.svg);
     background-position: -436px 0px; }
   .lt-ie9 .create .about-process-title span:before {
-    background-image: url(../img/sprite.png);
+    background-image: url(../../img/index/svg/sprite.svg);
     background-position: -541px -101px; }
   .lt-ie9 .create .about-process-title:hover span:before {
     background-position: -429px -101px; }
   .lt-ie9 .create.active .about-process-title span:before {
-    background-image: url(../img/sprite.png);
+    background-image: url(../../img/index/svg/sprite.svg);
     background-position: -429px -101px; }
   .lt-ie9 .execute .about-process-title span:before {
-    background-image: url(../img/sprite.png);
+    background-image: url(../../img/index/svg/sprite.svg);
     background-position: -529px -198px; }
   .lt-ie9 .execute .about-process-title:hover span:before {
-    background-image: url(../img/sprite.png);
+    background-image: url(../../img/index/svg/sprite.svg);
     background-position: -417px -198px; }
   .lt-ie9 .execute.active .about-process-title span:before {
-    background-image: url(../img/sprite.png);
+    background-image: url(../../img/index/svg/sprite.svg);
     background-position: -417px -198px; }
   .lt-ie9 .grow .about-process-title span:before {
-    background-image: url(../img/sprite.png);
+    background-image: url(../../img/index/svg/sprite.svg);
     background-position: -547px -337px; }
   .lt-ie9 .grow .about-process-title:hover span:before {
-    background-image: url(../img/sprite.png);
+    background-image: url(../../img/index/svg/sprite.svg);
     background-position: -435px -337px; }
   .lt-ie9 .grow.active .about-process-title span:before {
-    background-image: url(../img/sprite.png);
+    background-image: url(../../img/index/svg/sprite.svg);
     background-position: -435px -337px; }
 
         /* ========================================================================================== 
@@ -4418,7 +4418,7 @@ footer {
     right: 263px; }
 
   .lt-ie9 .about-process-graph .about-process-title span:before {
-    background-image: url(../img/sprite.png); }
+    background-image: url(../../img/index/svg/sprite.svg); }
   .lt-ie9 .plan .about-process-title span:before {
     background-position: -548px 0px; }
   .lt-ie9 .plan .about-process-title:hover span:before {
@@ -5102,7 +5102,7 @@ footer {
   .lt-ie9 .some-of-our-work .some-of-our-work-grid .some-of-our-work-item .some-of-our-work-item-info {
     background-color: #725c8d; }
   .lt-ie9 .about-process-graph .about-process-title span:before {
-    background-image: url(../img/sprite.png); }
+    background-image: url(../../img/index/svg/sprite.svg); }
   .lt-ie9 .plan .about-process-title span:before {
     background-position: -548px 0px; }
   .lt-ie9 .plan .about-process-title:hover span:before {
